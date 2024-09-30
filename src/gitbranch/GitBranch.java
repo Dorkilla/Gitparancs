@@ -18,4 +18,9 @@ public class GitBranch {
         return 0;
     }
     
+    public void eljaras(){
+        
+    }
+    
+    
 }

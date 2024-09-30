@@ -4,17 +4,16 @@
  */
 package gitbranch;
 
-/**
- *
- * @author kocsi.dorottya
- */
+
 public class GitBranch {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        fv();
+    }
+
+    private static void fv() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }

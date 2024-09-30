@@ -9,12 +9,18 @@ public class GitBranch {
 
    
     public static void main(String[] args) {
-        int i = GitBranch.fv();
+        GitBranch obj = new GitBranch();
+       int i = obj.fv();
     }
 
-    private static int fv() {
-       System.out.println("static fv");
-       return -1;
+    private int fv() {
+        System.out.println("nem statikus fv");
+        return 0;
     }
+    
+    public void eljaras(){
+        
+    }
+    
     
 }

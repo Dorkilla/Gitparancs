@@ -13,8 +13,8 @@ public class GitBranch {
     }
 
     private static int fv() {
-       System.out.println("")
-               return -1
+       System.out.println("static fv");
+       return -1;
     }
     
 }
